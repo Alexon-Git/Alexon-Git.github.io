@@ -28,7 +28,7 @@ body {
     text-align: center;
     box-shadow: 0 0 5px grey;
     transform: translateY(-5px);
-    border-radius: 10px;		
+    border-radius: 10px 0 0 15px;		
 }
 
 .name {
