@@ -4,7 +4,6 @@ body {
     font-size: 18px;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-		background-color: #ffffff;
 }
 
 .container {
@@ -15,10 +14,10 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 230px 230px 230px;
-		column-gap:  20px;
-		row-gap:  20px;
-		padding: 10px;		
-		grid-row: span 50;
+    column-gap:  20px;
+    row-gap:  20px;
+    padding: 10px;		
+    grid-row: span 50;
 }
 
 .img {
@@ -28,8 +27,8 @@ body {
 .item {
     text-align: center;
     box-shadow: 0 0 5px grey;
-  	transform: translateY(-5px);
-		border-radius: 10px;		
+    transform: translateY(-5px);
+    border-radius: 10px;		
 }
 
 .name {
@@ -45,7 +44,6 @@ body {
 	left: 10px;
 	font-family: 'SF Pro Display', sans-serif;
 	color: var(--tg-theme-text-color);
-	
 }
 
 .btn {
@@ -62,11 +60,6 @@ body {
 	position: fixed;
 	left: 105px;
 	top: 190px;
-	
-}
-
-.image {
-	width: 15px;
 }
 
 .btn:hover{
@@ -84,21 +77,3 @@ body {
 	padding: 5px;
 	
 }
-
-.btn1 {
-	border: 1px solid #000000;
-	display: inline-block;
-	padding: 5px 10px;
-	border: none;
-	background: #ffa500 ;
-	border-radius: 8px;
-	color: #fff;
-	text-transform: uppercase;
-	background-repeat: no-repeat;
-	transition: background .2s linear;
-}
-
-.image{
-	padding: 0 0 0 10px;
-}
-
