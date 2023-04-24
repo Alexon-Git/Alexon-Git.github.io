@@ -16,7 +16,7 @@ body {
     grid-template-rows: 230px 230px 230px;
     column-gap:  20px;
     row-gap:  20px;
-    padding: 10px;		
+    padding: 10px 0 0 15px;		
     grid-row: span 50;
 }
 
@@ -28,7 +28,7 @@ body {
     text-align: center;
     box-shadow: 0 0 5px grey;
     transform: translateY(-5px);
-    border-radius: 10px 0 0 15px;		
+    border-radius: 10px;		
 }
 
 .name {
