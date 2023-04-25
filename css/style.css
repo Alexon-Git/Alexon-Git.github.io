@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 390px;	
+    max-width: 400px;	
     margin: 0 0 0 15px;
 }
 
@@ -59,8 +59,9 @@ body {
 	background-repeat: no-repeat;
 	transition: background .2s linear;
 	position: fixed;
-	left: 105px;
+	left: 112px;
 	top: 190px;
+	margin: 0;
 }
 
 .btn:hover{
