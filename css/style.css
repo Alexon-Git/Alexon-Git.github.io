@@ -8,7 +8,8 @@ body {
 }
 
 .container {
-    max-width: 390px;		
+    max-width: 414px;		
+		
 }
 
 .inner {
@@ -60,8 +61,9 @@ body {
 	background-repeat: no-repeat;
 	transition: background .2s linear;
 	position: fixed;
-	left: 105px;
+	left: 112px;
 	top: 190px;
+	margin: 0;
 	
 }
 

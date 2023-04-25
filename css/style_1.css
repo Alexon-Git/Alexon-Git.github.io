@@ -1,0 +1,125 @@
+body {
+    margin:0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+		font-family: 'SF Pro Display', sans-serif;
+}
+
+.navbar{
+	width: 400px;
+	height: 45px;
+	box-shadow: 0 4px 10px rgb(0, 0, 0, .1);
+}
+.navbar .head {  
+	width: inherit;
+	display: flex;
+	justify-self: space-between;
+	align-content: center;
+}
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.navbar-menu li {
+	display: inline-block;
+}
+.navbar-menu li a {
+		display: inline-block;
+}
+
+.container {
+	max-width: 412px;		
+	text-align: center;
+	border: #000000 solid 1px;
+}
+.inner {
+	display: grid;
+	grid-template-rows: 800px;
+
+}
+
+.img {
+    width: 300px;
+		border: #000000 solid 1px;
+}
+
+.back {
+    width: 45px;
+}
+
+.cart{
+	width: 45px;
+}
+
+.item {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+		align-self: start;
+
+}
+
+.size{
+	display: inline-block;
+	justify-self: start;
+	margin: 0 0 8px 15px;
+
+}
+.size_btn {
+	background: white;
+	border:  rgba(91, 91, 91, 1) solid 1px;
+	border-radius: 5px;
+	color: var(--tg-theme-button-text-color);
+}
+
+.btn {
+    padding: 10px 15px;
+		margin: 0 15px ;
+    border: none;
+    background: #ffa500;
+    border-radius: 14px;
+		color: var(--tg-theme-button-text-color);
+		justify-self: stretch;
+		height: 42px;
+
+}
+
+.name {
+	font-size: 26px;
+	justify-self: start;
+	margin: 0 0 8px 15px;
+	color: var(--tg-theme-text-color);
+	font-family: 'SF Pro Display', sans-serif;
+}
+.name_btn {
+	font-size: 18px;
+	margin: 0 0 10px 15px;
+	color: var(--tg-theme-text-color);
+	font-family: 'SF Pro Display', sans-serif;
+	
+}
+.name_size {
+	font-size: 13px;
+	justify-self: start;
+	margin: 0 0 8px 15px;
+	color: var(--tg-theme-text-color);
+	font-family: 'SF Pro Display', sans-serif;
+}
+.ru{
+	justify-self : start;
+	align-self : start;
+	color: var(--tg-theme-text-color);
+	border: #000000 1px solid;
+}
+
+.price {
+	font-size: 26px;
+	justify-self: start;
+	margin: 0 0 10px 15px;
+	font-family: 'SF Pro Display', sans-serif;
+	color: var(--tg-theme-text-color);
+	
+}
