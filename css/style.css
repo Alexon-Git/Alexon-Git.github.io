@@ -4,8 +4,29 @@ body {
     font-size: 18px;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-		background-color: #ffffff;
 }
+.navbar{
+	width: 414px;
+	height: 45px;
+	box-shadow: 0 4px 10px rgb(0, 0, 0, .1);
+	background: var(--tg-theme-bg-color);
+}
+.navbar .head {  
+	width: inherit;
+	display: grid;
+	justify-content: end;
+}
+.back {
+	width: 45px;
+
+}
+
+.cart{
+	display: grid;
+	width: 45px;
+	
+}
+
 
 .container {
     max-width: 414px;		
@@ -35,7 +56,6 @@ body {
 
 .name {
 	margin: 0 0 10px 0;
-	color: var(--tg-theme-text-color);
 	font-family: 'SF Pro Display', sans-serif;
 }
 
@@ -45,7 +65,6 @@ body {
 	top: 195px;
 	left: 10px;
 	font-family: 'SF Pro Display', sans-serif;
-	color: var(--tg-theme-text-color);
 	
 }
 

@@ -8,32 +8,36 @@ body {
 }
 
 .navbar{
-	width: 400px;
+	width: 414px;
 	height: 45px;
 	box-shadow: 0 4px 10px rgb(0, 0, 0, .1);
+	background: var(--tg-theme-bg-color);
 }
 .navbar .head {  
 	width: inherit;
-	display: flex;
-	justify-self: space-between;
-	align-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	
 }
-.navbar-menu {
-	list-style-type: none;
-	padding-left: 0;
-	margin-bottom: 0;
+
+.back {
+    width: 45px;
+
 }
-.navbar-menu li {
-	display: inline-block;
+
+.cart{
+	display: grid;
+	width: 45px;
+	margin-left: 169px;
+
+
 }
-.navbar-menu li a {
-		display: inline-block;
-}
+
+
 
 .container {
 	max-width: 412px;		
 	text-align: center;
-	border: #000000 solid 1px;
 }
 .inner {
 	display: grid;
@@ -43,16 +47,8 @@ body {
 
 .img {
     width: 300px;
-		border: #000000 solid 1px;
 }
 
-.back {
-    width: 45px;
-}
-
-.cart{
-	width: 45px;
-}
 
 .item {
     text-align: center;
@@ -70,6 +66,7 @@ body {
 }
 .size_btn {
 	background: white;
+	height: 25px;
 	border:  rgba(91, 91, 91, 1) solid 1px;
 	border-radius: 5px;
 	color: var(--tg-theme-button-text-color);
@@ -97,7 +94,7 @@ body {
 .name_btn {
 	font-size: 18px;
 	margin: 0 0 10px 15px;
-	color: var(--tg-theme-text-color);
+	color: var(--tg-theme-button-text-color);
 	font-family: 'SF Pro Display', sans-serif;
 	
 }
@@ -105,13 +102,11 @@ body {
 	font-size: 13px;
 	justify-self: start;
 	margin: 0 0 8px 15px;
-	color: var(--tg-theme-text-color);
 	font-family: 'SF Pro Display', sans-serif;
 }
 .ru{
 	justify-self : start;
 	align-self : start;
-	color: var(--tg-theme-text-color);
 	border: #000000 1px solid;
 }
 
@@ -120,6 +115,5 @@ body {
 	justify-self: start;
 	margin: 0 0 10px 15px;
 	font-family: 'SF Pro Display', sans-serif;
-	color: var(--tg-theme-text-color);
 	
 }
