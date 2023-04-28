@@ -63,7 +63,7 @@ body {
 
 .container {
     max-width: 400px;		
-		
+    border: #000000 solid 1px;		
 }
 .container_product {
 	max-width: 400px;		
