@@ -62,7 +62,7 @@ body {
 
 
 .container {
-    max-width: 100%;		
+    max-width: 420px;		
     border: #000000 solid 1px;		
 }
 .container_product {
