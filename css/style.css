@@ -194,7 +194,7 @@ body {
   border: none;
   background: #ffa500;
   border-radius: 14px;
-  color: var(--tg-theme-button-text-color);
+  color: #000000;
   justify-self: stretch;
   height: 42px;
 }
