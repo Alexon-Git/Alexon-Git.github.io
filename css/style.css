@@ -172,7 +172,7 @@ body {
   background: white;
   height: 25px;
   border-radius: 8px;
-  color: var(--tg-theme-button-text-color);
+  color: #000000);
 }
 .product__size-element:focus {
   font-weight: 600;
