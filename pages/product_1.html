@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="..\css\style.css">
+	<title>Vonori</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="head_product">
+			<div class="block_back">
+				<a href="..\index.html"> <img src="..\img\back.png" alt="back" class="back"></a>
+			</div>
+			<div class="block_cart">
+				<a class="Buscet" href="..\index.html"> <img src="..\img\cart.png" alt="cart" class="cart"></a>
+			</div>
+		</div>
+		</div>
+	</nav>
+
+	<div class="container_product">
+		<div class="inner_product">
+			<div class="item_product">
+				<div class="scroll_box">
+				<div class="scroll">
+					<img src="../img/товары/товар4/1.jpg" alt="photo" class="img_product" tabindex="1">
+				</div>	
+				<div class="scroll">
+					<img src="../img/товары/товар4/2.jpg" alt="photo" class="img_product">
+				</div>	
+				<div class="scroll">
+					<img src="../img/товары/товар4/3.jpg" alt="photo" class="img_product">
+				</div>	
+				<div class="scroll">
+					<img src="../img/товары/товар4/4.jpg" alt="photo" class="img_product">
+				</div>	
+				<div class="scroll">
+					<img src="../img/товары/товар4/5.jpg" alt="photo" class="img_product">
+				</div>	
+				<div class="scroll">
+					<img src="../img/товары/товар4/6.jpg" alt="photo" class="img_product">
+				</div>	
+				</div>
+				<p class="name_product">Кроссовки Nike Dunk Low</p>
+				<p class="name_size">Выберите размер</p>
+				<div class="product__size">
+
+					<div class="product__size-element" data-sb-curent-price="14 999" data-sb-curent-size="36"
+						data-sb-curent-id-or-vendor-code="036">36 </div>
+					<div class="product__size-element" data-sb-curent-price="11 999" data-sb-curent-size="42"
+						data-sb-curent-id-or-vendor-code="042">42 </div>
+
+				</div>
+
+				<div class="product__price price_product"><span class="product__price-number">14 999</span> ₽</div>
+
+
+
+
+				<button class="btn_product" id="btn1">
+					<p class="name_btn">Купить</p>
+				</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script src="app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+	<div class="smart-basket__wrapper"></div>
+
+	<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'item',
+				buttonAddToBasket: 'btn',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'Buscet',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+</body>
