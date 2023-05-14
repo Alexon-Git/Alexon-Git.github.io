@@ -189,6 +189,9 @@ body {
   height: 25px;
   border-radius: 8px;
 }
+.product__size-element > span{
+	color: #000000;
+}
 
 
 .btn_product {
