@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="..\css\style.css">
+	<title>Vonori</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="head_product">
+			<div class="block_back">
+				<a href="..\index.html"> <img src="..\img\back.png" alt="back" class="back"></a>
+			</div>
+			<div class="block_cart">
+				<a class="buscet"></a>
+			</div>
+		</div>
+		</div>
+	</nav>
+
+	<div class="container_product">
+		<div class="inner_product">
+			<div class="item_product">
+
+				<div class="scroll_box">
+				<div class="scroll">
+					<img src="../archive/Nike Court Royale AC White/photo_1.jpg" alt="photo" class="img_product" tabindex="1">
+				</div>	
+				<div class="scroll">
+					<img src="../archive/Nike Court Royale AC White/photo_2.jpg" alt="photo" class="img_product">
+				</div>	
+				<div class="scroll">
+					<img src="../archive/Nike Court Royale AC White/photo_3.jpg" alt="photo" class="img_product">
+				</div>	
+				</div>
+
+				<p class="name_product">Кроссовки Nike Court Royale AC White</p>
+				<div class="price_product"><span class="product__price-number">8 400</span> ₽</div>
+
+				<div class="razmer">
+					<div class="box_table_size_name">
+						<p class="name_size">Выберите размер: <small class="ru">ru</small></p>
+					</div>
+					<div class="box_table_size_table">
+						<p class="table_size">Таблица размеров</p>
+					</div>
+				</div>
+
+				<div class="product__size">
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="39"	data-sb-curent-id-or-vendor-code="039"><span>39</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="40"	data-sb-curent-id-or-vendor-code="040"><span>40</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="40.5"	data-sb-curent-id-or-vendor-code="040.5"><span>40.5</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="41"	data-sb-curent-id-or-vendor-code="041"><span>41</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="42"	data-sb-curent-id-or-vendor-code="042"><span>42</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="42.5"	data-sb-curent-id-or-vendor-code="042.5"><span>42.5</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="43" data-sb-curent-id-or-vendor-code="043"><span>43</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="44" data-sb-curent-id-or-vendor-code="044"><span>44</span></button>
+					<button class="product__size-element" data-sb-product-quantity="001" data-sb-curent-size="44.5"	data-sb-curent-id-or-vendor-code="044.5"><span>44.5</span></button>
+				</div>
+
+				<button class="btn_product" data-sb-product-name="Кроссовки Nike Court Royale AC White" data-sb-product-price="8400" data-sb-product-quantity="1"
+				  data-sb-product-img="../archive/Nike Court Royale AC White/logo/photo_1.png">
+					<p class="name_btn">Купить</p>
+				</button>
+
+				<div class="description">
+					<p class="name_description">Описание:</p>
+					<p class="text">Кроссовки Court Royale AC от американского бренда Nike. Пара выполнена из сочетания натуральной и синтетической кожи. Оснащена легкой белой резиновой подошвой, классической системой шнуровки.</p>
+					<p class="text"></p>
+				</div>
+
+				<div class="product__quantity"></div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="../smartbasket/css/smartbasket.min.css">
+	<div class="smart-basket__wrapper"></div>
+	<script src="../smartbasket/js/smartbasket.min.js"></script>
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'item_product',
+				buttonAddToBasket: 'btn_product',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'buscet',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: '../img/cart.png',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+</body>
