@@ -283,6 +283,7 @@
     border: none;
     width: 100%;
     padding: 15px 0;
+    color: #000;
   }
 }
 .smart-basket__info-icon {
@@ -473,6 +474,7 @@
 .smart-basket__input-wrapper_error {
   -webkit-box-shadow: #e94e3c 0 3px 0 0;
   box-shadow: #e94e3c 0 3px 0 0;
+  border-radius: 14px
 }
 .smart-basket__total-cost {
   width: 105px;
