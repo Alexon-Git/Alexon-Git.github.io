@@ -10,7 +10,6 @@
 	top: +1000px;
 	color: var(--tg-theme-text-color);
   background: var(--tg-theme-bg-color);
-  background: #fff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
