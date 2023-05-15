@@ -5,6 +5,7 @@ body {
 	font-family: "SF Pro Display", sans-serif;
   color: var(--tg-theme-text-color);
   background: var(--tg-theme-bg-color);
+	
 }
 
 .scroll_box {
@@ -48,6 +49,7 @@ body {
   width: inherit;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+	margin: 0 0 10px 0;
 }
 .back {
   width: 30px;
@@ -102,7 +104,7 @@ body {
 }
 
 .name {
-  margin: -10px 0 0 0;
+  margin: -16px 6px 0 6px;
   font-family: "SF Pro Display", sans-serif;
 }
 .name_product {
@@ -185,10 +187,10 @@ body {
 }
 .product__size-element:focus {
   font-weight: 600;
-  border: #ffa500 solid 2px;
   height: 25px;
   border-radius: 8px;
 }
+
 
 
 .btn_product {
@@ -205,6 +207,7 @@ body {
   border: 1px solid #000000;
   display: inline-block;
   padding: 6px 15px;
+	/*display: none;*/
   border: none;
   background: #ffa500;
   border-radius: 10px;
