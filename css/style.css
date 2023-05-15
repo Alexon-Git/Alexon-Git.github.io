@@ -48,6 +48,7 @@ body {
   width: inherit;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+	margin: 0 0 10px 0;
 }
 .back {
   width: 30px;
