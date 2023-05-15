@@ -257,6 +257,7 @@
   padding: 10px;
   text-align: center;
   position: relative;
+	color: #0000;
 }
 @media (max-width: 1030px) {
   .smart-basket__product-price:before {
