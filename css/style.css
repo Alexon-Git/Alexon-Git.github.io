@@ -162,7 +162,7 @@ body {
   position: fixed;
   margin: 0px;
   top: 195px;
-  left: 10px;
+  left: 18px;
   font-family: "SF Pro Display", sans-serif;
 }
 
@@ -184,11 +184,11 @@ body {
   vertical-align: middle;
   font-weight: 600;
   margin: 0 2px 0 0;
-	background:white;
+	background: var(--tg-theme-bg-color);
   height: 25px;
   border-radius: 8px;
 	margin: 0 0 8px 0;
-  color: #000;
+  color: var(--tg-theme-button-text-color);
 }
 .product__size-element:focus {
   font-weight: 600;
