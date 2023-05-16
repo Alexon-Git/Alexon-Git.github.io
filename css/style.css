@@ -188,7 +188,7 @@ body {
   height: 25px;
   border-radius: 8px;
 	margin: 0 0 8px 0;
-  color: var(--tg-theme-button-text-color);
+  color: #000;
 }
 .product__size-element:focus {
   font-weight: 600;
