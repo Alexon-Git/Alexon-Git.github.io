@@ -1,18 +1,18 @@
 <?php
     require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/phpmailer.php');
 
-		// *** SMTP *** //
+		
 
-		 // require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
-		 // const HOST = '';
-		 // const LOGIN = '';
-		 // const PASS = '';
-		 // const PORT = '';
+		 require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
+		 const HOST = 'ssl://smtp.mail.ru';
+		 const LOGIN = 'wizzardhtt@gmail.com';
+		 const PASS = 'Myblu1285';
+		 const PORT = '465';
 
-		// *** /SMTP *** //
+	
    
-    const SENDER = 's_vysochenko@mail.ru';
-    const CATCHER = 's_vysochenko@mail.ru';
+    const SENDER = 'wizzardhtt@gmail.com';
+    const CATCHER = 'petrdepersmidt497@gmail.com';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
     

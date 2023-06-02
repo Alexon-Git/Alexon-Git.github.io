@@ -92,17 +92,9 @@
 }
 
 .product__size-element_active {
-  border-radius: 8px;
 	outline: #ffa500 solid 2px;
-	border: #fff solid 1px;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 600;
-  margin: 0 2px 0 0;
-  background: white;
-  height: 25px;
-  margin: 0 0 8px 0;
-  color: #000;
+  border-radius: 8px;
+	border: solid 1px #fff;
 }
 
 
