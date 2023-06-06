@@ -203,7 +203,7 @@ body {
   font-family: "SF Pro Display", sans-serif;
 }
 .product__size-element {
-  border: rgba(91, 91, 91, 1) solid 1px;
+  border: rgba(91, 91, 91, 1) solid 2px;
   text-align: center;
   vertical-align: middle;
   font-weight: 600;
@@ -211,10 +211,11 @@ body {
   height: 25px;
   border-radius: 8px;
 	margin: 0 0 8px 0;
+	color: #000000;
 
 }
 .product__size-element:hover {
-  border:#ffa500 solid 1px;
+  border:#ffa500 solid 2px;
   text-align: center;
   vertical-align: middle;
   font-weight: 600;
@@ -222,7 +223,7 @@ body {
   height: 25px;
   border-radius: 8px;
 	margin: 0 0 8px 0;
-
+color: #000000;
 }
 /*.product__size-element_active {
 	outline: #ffa500 solid 2px;
