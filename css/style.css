@@ -53,6 +53,8 @@ body {
 	margin: 0 0 10px 0;
 }
 .back {
+	background-color: #ffa500;
+	border-radius: 8px;
   width: 30px;
   margin: 0 0 0 10px;
 }
